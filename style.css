@@ -1,0 +1,46 @@
+:root{
+    
+    --color1: #293431; /* Dark Gray */
+    --color2: #151616; /* Nicer Black */
+    --color3: #45AA96; /* Cyan */
+    --color4: #05CEA8; /* Lighter Cyan */
+
+}
+
+@font-face{
+    font-family: 'rubik';
+    src: url()
+}
+.softeng{
+    display:flex;
+    color:var(--color3);
+}
+.project{
+    height:200px;
+    width:auto; /*max-auto fills the div to the size of the content inside, could be useful to know!*/
+    border-radius: 25px;
+    padding:8px;
+    margin-bottom:10px; /*Adds a gap between the divs*/
+    background-color:var(--color4);
+}
+.sprints{
+    color:var(--color4);
+}
+.title{
+    color:var(--color4);
+    display:flex;
+}
+
+.outer-content{
+    font-family:rubik;
+    justify-content:center;
+    align-items:center;
+
+    height:100%;
+    margin:0;
+    width:100%;
+    background-color:var(--color2);
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+}
