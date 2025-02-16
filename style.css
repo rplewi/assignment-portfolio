@@ -15,13 +15,19 @@
     display:flex;
     color:var(--color3);
 }
+.content{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
 .project{
     height:200px;
-    width:auto; /*max-auto fills the div to the size of the content inside, could be useful to know!*/
+    width:50%; /*max-auto fills the div to the size of the content inside, could be useful to know!*/
     border-radius: 25px;
-    padding:8px;
+    padding:18px;
     margin-bottom:10px; /*Adds a gap between the divs*/
     background-color:var(--color4);
+    text-align: center;
 }
 .sprints{
     color:var(--color4);
@@ -30,7 +36,6 @@
     color:var(--color4);
     display:flex;
 }
-
 .outer-content{
     font-family:rubik;
     justify-content:center;
@@ -42,5 +47,5 @@
     background-color:var(--color2);
     display: flex;
     flex-direction:column;
-    justify-content:center;
+    padding-bottom:4%;
 }
